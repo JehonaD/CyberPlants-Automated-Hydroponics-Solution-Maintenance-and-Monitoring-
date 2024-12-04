@@ -152,7 +152,7 @@ Ensure that the sensor is securely mounted during calibration for consistent res
 ---
 
 ### 3. Upload the Code
-1. **Code Setup**: The code is already embedded, just update the `correctionFactor` in the code.
+1. **Code Setup**: The code [Total_System_Code.ino](Total_System_Code.ino)  is already written, just update the `correctionFactor` in the code if needed.
 2. Open the **Arduino IDE**.
 3. **Verify & Upload**: Connect the Arduino, click the checkmark to verify the code, and then click the arrow to upload it.
 
