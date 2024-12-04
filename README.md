@@ -88,7 +88,7 @@ Upload the following code to your Arduino to measure raw distances:
 - Paste the code from `Initial_Sensor_Code.ino`.
 - Verify (click the checkmark) and upload (click the arrow) to run the system.
 
-You can find the code here: [Initial_Sensor_Code.ino](./Initial_Sensor_Code.ino).
+You can find the code here: (Initial_Calibration_Code.ino)
 
 ---
 
