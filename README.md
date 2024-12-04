@@ -88,7 +88,7 @@ Upload the following code to your Arduino to measure raw distances:
 - Paste the code from `Initial_Sensor_Code.ino`.
 - Verify (click the checkmark) and upload (click the arrow) to run the system.
 
-You can find the code here: (Initial_Calibration_Code.ino)
+You can find the code here: [Initial_Calibration_Code.ino](Initial_Calibration_Code.ino)
 
 ---
 
@@ -99,13 +99,13 @@ You can find the code here: (Initial_Calibration_Code.ino)
 4. Calculate individual correction factors for each measurement:
 
    \[
-   {Individual Correction Factor} = {Actual Distance}(/{Measured Distance})
+   Individual Correction Factor = Actual Distance/Measured Distance
    \]
 
 5. Determine the average correction factor:
 
    \[
-   {Correction Factor} = {AVERAGE}(/{Individual Correction Factors})
+   Correction Factor = AVERAGE(Individual Correction Factors)
    \]
 
 ---
