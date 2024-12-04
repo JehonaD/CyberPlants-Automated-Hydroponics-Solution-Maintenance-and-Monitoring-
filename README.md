@@ -67,89 +67,89 @@ For a detailed wiring guide, refer to the table below:
     <tr>
       <td>Ultrasonic Sensor</td>
       <td>
-        <b>VCC</b> - 5v<br>
-        <b>GND</b> - GND<br>
-        <b>TRIG</b> - D12<br>
-        <b>ECHO</b> - D13
+        <b>VCC</b> -> 5v<br>
+        <b>GND</b> -> GND<br>
+        <b>TRIG</b> -> D12<br>
+        <b>ECHO</b> -> D13
       </td>
     </tr>
     <tr>
       <td>LCD</td>
       <td>
-        <b>VSS</b> - GND<br>
-        <b>VDD</b> - 5v<br>
-        <b>V0</b> - 10K potentiometer (1st leg)<br>
-        <b>RS</b> - D2<br>
-        <b>RW</b> - GND<br>
-        <b>E</b> - D3<br>
-        <b>DB4</b> - D4<br>
-        <b>DB5</b> - D5<br>
-        <b>DB6</b> - D6<br>
-        <b>DB7</b> - D7<br>
-        <b>A (or LED+)</b> - 220 Ohm resistor -> 5V<br>
-        <b>K (or LED-)</b> - GND
+        <b>VSS</b> -> GND<br>
+        <b>VDD</b> -> 5v<br>
+        <b>V0</b> -> 10K potentiometer (1st leg)<br>
+        <b>RS</b> -> D2<br>
+        <b>RW</b> -> GND<br>
+        <b>E</b> -> D3<br>
+        <b>DB4</b> -> D4<br>
+        <b>DB5</b> -> D5<br>
+        <b>DB6</b> -> D6<br>
+        <b>DB7</b> -> D7<br>
+        <b>A (or LED+)</b> -> 220 Ohm resistor -> 5V<br>
+        <b>K (or LED-)</b> -> GND
       </td>
     </tr>
     <tr>
       <td>10K Potentiometer</td>
       <td>
-        <b>1st leg</b> - V0<br>
-        <b>2nd leg</b> - GND<br>
-        <b>3rd leg</b> - 5V
+        <b>1st leg</b> -> V0<br>
+        <b>2nd leg</b> -> GND<br>
+        <b>3rd leg</b> -> 5V
       </td>
     </tr>
     <tr>
       <td>Button 1</td>
       <td>
-        <b>1st Leg</b> - 10KOhm resistor -> GND<br>
-        <b>2nd Leg</b> - 5V<br>
-        <b>3rd Leg</b> - D8
+        <b>1st Leg</b> -> 10KOhm resistor -> GND<br>
+        <b>2nd Leg</b> -> 5V<br>
+        <b>3rd Leg</b> -> D8
       </td>
     </tr>
     <tr>
       <td>Button 2</td>
       <td>
-        <b>1st Leg</b> - 10KOhm resistor -> GND<br>
-        <b>2nd Leg</b> - 5V<br>
-        <b>3rd Leg</b> - D9
+        <b>1st Leg</b> -> 10KOhm resistor -> GND<br>
+        <b>2nd Leg</b> -> 5V<br>
+        <b>3rd Leg</b> -> D9
       </td>
     </tr>
     <tr>
       <td>Float Switch 1</td>
       <td>
-        <b>1st wire</b> - A0<br>
-        <b>2nd wire (or black wire)</b> - GND
+        <b>1st wire</b> -> A0<br>
+        <b>2nd wire (or black wire)</b> -> GND
       </td>
     </tr>
     <tr>
       <td>Float Switch 2</td>
       <td>
-        <b>1st wire</b> - A1<br>
-        <b>2nd wire (or black wire)</b> - GND
+        <b>1st wire</b> -> A1<br>
+        <b>2nd wire (or black wire)</b> -> GND
       </td>
     </tr>
     <tr>
       <td>Pump</td>
       <td>
-        <b>Red wire</b> - COM terminal relay<br>
-        <b>Black wire</b> - Negative terminal adapter
+        <b>Red wire</b> -> COM terminal relay<br>
+        <b>Black wire</b> -> Negative terminal adapter
       </td>
     </tr>
     <tr>
       <td>Adapter (connected to outside AC source)</td>
       <td>
-        <b>Positive Outlet</b> - Fuse wire<br>
-        <b>Negative Outlet</b> - Black pump wire
+        <b>Positive Outlet</b> -> Fuse wire<br>
+        <b>Negative Outlet</b> -> Black pump wire
       </td>
     </tr>
     <tr>
       <td>Relay</td>
       <td>
-        <b>COM terminal</b> - Black pump wire<br>
-        <b>NC terminal</b> - Fuse wire<br>
-        <b>DC+</b> - 5V<br>
-        <b>DC-</b> - GND<br>
-        <b>IN</b> - D11
+        <b>COM terminal</b> -> Black pump wire<br>
+        <b>NC terminal</b> -> Fuse wire<br>
+        <b>DC+</b> -> 5V<br>
+        <b>DC-</b> -> GND<br>
+        <b>IN</b> -> D11
       </td>
     </tr>
   </tbody>
