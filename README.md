@@ -42,13 +42,13 @@ Ensure you have the following components ready before proceeding:
 To set up the system, connect the components as shown in the diagrams below.
 
 ### Monitoring System Schematic
-![Monitoring System Schematic](./images/monitoring_system_schematic.png)
+[![Monitoring Solution Schematic](Monitor_Solution_Schematic.jpg)](Monitor_Solution_Schematic.jpg)
 
 ### Maintaining + Failsafe System Schematic
 [![Maintaining Solution Schematic](Maintain_Solution_Schematic.jpg)](Maintain_Solution_Schematic.jpg)
 
 ### Complete System Schematic
-![Complete System Schematic](./images/complete_schematic.png)
+[![Total System Schematic](Total_System_Schematic.jpg)](Total_System_Schematic.jpg)
 
 ---
 
