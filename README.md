@@ -56,18 +56,105 @@ To set up the system, connect the components as shown in the diagrams below.
 
 For a detailed wiring guide, refer to the table below:
 
-| **Component**      | **Wiring**                                   |
-|---------------------|----------------------------------------------|
-| **Ultrasonic Sensor** | VCC - 5v, GND - GND, TRIG - D12, ECHO - D13 |
-| **LCD**              | VSS - GND, VDD - 5v, V0 - 10K potentiometer (1st leg), RS - D2, RW - GND, E - D3, DB4 - D4, DB5 - D5, DB6 - D6, DB7 - D7, A (or LED+) - 220 Ohm resistor -> 5V, K (or LED-) - GND |
-| **10K Potentiometer** | 1st leg - V0, 2nd leg - GND, 3rd leg - 5V  |
-| **Button 1**         | 1st Leg - 10KOhm resistor -> GND, 2nd Leg - 5V, 3rd Leg - D8 |
-| **Button 2**         | 1st Leg - 10KOhm resistor -> GND, 2nd Leg - 5V, 3rd Leg - D9 |
-| **Float Switch 1**   | 1st wire - A0, 2nd wire (or black wire) - GND |
-| **Float Switch 2**   | 1st wire - A1, 2nd wire (or black wire) - GND |
-| **Pump**             | Red wire - COM terminal relay, Black wire - Negative terminal adapter |
-| **Adapter**          | Positive Outlet - Fuse wire, Negative Outlet - Black pump wire |
-| **Relay**            | COM terminal - Black pump wire, NC terminal - Fuse wire, DC+ - 5V, DC- - GND, IN - D11 |
+<table>
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Wiring</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ultrasonic Sensor</td>
+      <td>
+        <b>VCC</b> - 5v<br>
+        <b>GND</b> - GND<br>
+        <b>TRIG</b> - D12<br>
+        <b>ECHO</b> - D13
+      </td>
+    </tr>
+    <tr>
+      <td>LCD</td>
+      <td>
+        <b>VSS</b> - GND<br>
+        <b>VDD</b> - 5v<br>
+        <b>V0</b> - 10K potentiometer (1st leg)<br>
+        <b>RS</b> - D2<br>
+        <b>RW</b> - GND<br>
+        <b>E</b> - D3<br>
+        <b>DB4</b> - D4<br>
+        <b>DB5</b> - D5<br>
+        <b>DB6</b> - D6<br>
+        <b>DB7</b> - D7<br>
+        <b>A (or LED+)</b> - 220 Ohm resistor -> 5V<br>
+        <b>K (or LED-)</b> - GND
+      </td>
+    </tr>
+    <tr>
+      <td>10K Potentiometer</td>
+      <td>
+        <b>1st leg</b> - V0<br>
+        <b>2nd leg</b> - GND<br>
+        <b>3rd leg</b> - 5V
+      </td>
+    </tr>
+    <tr>
+      <td>Button 1</td>
+      <td>
+        <b>1st Leg</b> - 10KOhm resistor -> GND<br>
+        <b>2nd Leg</b> - 5V<br>
+        <b>3rd Leg</b> - D8
+      </td>
+    </tr>
+    <tr>
+      <td>Button 2</td>
+      <td>
+        <b>1st Leg</b> - 10KOhm resistor -> GND<br>
+        <b>2nd Leg</b> - 5V<br>
+        <b>3rd Leg</b> - D9
+      </td>
+    </tr>
+    <tr>
+      <td>Float Switch 1</td>
+      <td>
+        <b>1st wire</b> - A0<br>
+        <b>2nd wire (or black wire)</b> - GND
+      </td>
+    </tr>
+    <tr>
+      <td>Float Switch 2</td>
+      <td>
+        <b>1st wire</b> - A1<br>
+        <b>2nd wire (or black wire)</b> - GND
+      </td>
+    </tr>
+    <tr>
+      <td>Pump</td>
+      <td>
+        <b>Red wire</b> - COM terminal relay<br>
+        <b>Black wire</b> - Negative terminal adapter
+      </td>
+    </tr>
+    <tr>
+      <td>Adapter (connected to outside AC source)</td>
+      <td>
+        <b>Positive Outlet</b> - Fuse wire<br>
+        <b>Negative Outlet</b> - Black pump wire
+      </td>
+    </tr>
+    <tr>
+      <td>Relay</td>
+      <td>
+        <b>COM terminal</b> - Black pump wire<br>
+        <b>NC terminal</b> - Fuse wire<br>
+        <b>DC+</b> - 5V<br>
+        <b>DC-</b> - GND<br>
+        <b>IN</b> - D11
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
 ---
 # Section 3: Calibration of Ultrasonic Sensor
