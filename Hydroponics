@@ -1,0 +1,38 @@
+# CyberPlants Automated Hydroponics Solution Maintenance and Monitoring
+
+This repository contains instructions for establishing the system to maintain and monitor the solution level via ultrasonic depth sensor, immersible pump, and Arduino Uno. The instructions also explain how to access and download the data remotely via Coolterm and TeamViewer.
+
+> **Note:** Skip to Section 3 if the system is intact and no parts are missing.
+
+---
+
+## Section 1: Hardware Setup
+
+Ensure you have the following hardware ready before proceeding:
+
+| Quantity | Component                     |
+|----------|-------------------------------|
+| 1        | Arduino Uno R3               |
+| 1        | Ultrasonic Depth Sensor      |
+| 1        | LCD                           |
+| 2        | Push Buttons                  |
+| 1        | Immersible Water Pump         |
+| 1        | 5V Relay                      |
+| 1        | Power Source for Pump         |
+| 2        | Float Switches                |
+| 1        | Adaptor                       |
+| 1        | 1A Fuse with Fuse Holder      |
+| 1        | 10k Potentiometer             |
+| 1        | 220 Ohm Resistor              |
+| 2        | 10 kOhm Resistor              |
+
+
+---
+
+### Next Steps
+
+If your hardware is ready, proceed to Section 2: Circuit Diagram.
+
+---
+
+Feel free to provide feedback or additional parts, and I’ll update the document accordingly!
