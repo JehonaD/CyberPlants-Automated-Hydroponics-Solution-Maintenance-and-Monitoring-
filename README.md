@@ -99,13 +99,13 @@ You can find the code here: [Initial_Sensor_Code.ino](./Initial_Sensor_Code.ino)
 4. Calculate individual correction factors for each measurement:
 
    \[
-   \text{Individual Correction Factor} = \frac{\text{Actual Distance}}{\text{Measured Distance}}
+   {Individual Correction Factor} = {Actual Distance}(/{Measured Distance})
    \]
 
 5. Determine the average correction factor:
 
    \[
-   \text{Correction Factor} = \text{AVERAGE}(\text{Individual Correction Factors})
+   {Correction Factor} = {AVERAGE}(/{Individual Correction Factors})
    \]
 
 ---
