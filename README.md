@@ -36,6 +36,17 @@ Ensure you have the following components ready before proceeding:
 
 ### System Pictures
 
+Completed system setup for guidance 
+
+### 
+[![Side View](Side_View.jpg)](Side_View.jpg)
+
+### Maintaining + Failsafe System Schematic
+[![Top View](Top_View.jpg)](Top_View.jpg)
+
+### Complete System Schematic
+[![LCD](LDC.jpg)](LCD.jpg)
+
 ---
 
 ## Section 2: Circuit Diagram
