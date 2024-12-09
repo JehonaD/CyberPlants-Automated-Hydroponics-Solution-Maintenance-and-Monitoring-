@@ -38,13 +38,13 @@ Ensure you have the following components ready before proceeding:
 
 Completed system setup for guidance 
 
-### 
+### Side View
 [![Side View](Side_View.jpg)](Side_View.jpg)
 
-### Maintaining + Failsafe System Schematic
+### Top View
 [![Top View](Top_View.jpg)](Top_View.jpg)
 
-### Complete System Schematic
+### LCD
 [![LCD](LDC.jpg)](LCD.jpg)
 
 ---
