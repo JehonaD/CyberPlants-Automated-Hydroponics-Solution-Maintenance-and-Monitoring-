@@ -34,6 +34,7 @@ Ensure you have the following components ready before proceeding:
 | 1        | 220 Ohm Resistor            |
 | 2        | 10 kOhm Resistor            |
 
+### System Pictures
 
 ---
 
@@ -358,6 +359,7 @@ Your system is now set up! The pump will trigger based on the thresholds you set
 - Ensure that **CoolTerm** is properly connected to the Arduino via the correct serial port.
 - Double-check that the **Arduino IDE**’s serial monitor is closed when using **CoolTerm**.
 - If TeamViewer is not connecting properly, verify your internet connection or recheck the TeamViewer ID and password.
+- If LCD is turned on but the writing is not visible, toggle with the 10kohm potentiometer knob
 - [**Detailed Manual**](https://docs.google.com/document/d/1stZTwr3HXEx61PR2mRrPpaU4MkBGXDxLLtloeoPNF5o/edit?usp=sharing): Look at this manual for more detailed instructions on sections 4 and 5 if you need help.
 
 
